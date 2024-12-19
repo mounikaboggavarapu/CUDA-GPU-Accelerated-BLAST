@@ -1,0 +1,374 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: lastest_proj3_db.fasta
+           10,000 sequences; 8,004,328 total letters
+
+
+
+Query= OQ326704.1 Vincetoxicum simplex voucher BCU:A.Kidyoo 69 trnT-trnL
+intergenic spacer, partial se>
+
+Length=800
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+OQ326704.1 Vincetoxicum simplex voucher BCU:A.Kidyoo 69 trnT-trnL...  1478    0.0  
+OP923893.1 Vincetoxicum flexuosum voucher M.Kidyoo 1696 trnT-trnL...  1472    0.0  
+LN880806.1 Vincetoxicum inamoenum chloroplast DNA containing part...  1467    0.0  
+OP923887.1 Vincetoxicum sp. MK-2022a voucher A.Kidyoo 80 trnT-trn...  1467    0.0  
+OQ326690.1 Vincetoxicum kerrii voucher BCU:A.Kidyoo 96 trnT-trnL ...  1467    0.0  
+
+
+>OQ326704.1 Vincetoxicum simplex voucher BCU:A.Kidyoo 69 trnT-trnL 
+intergenic spacer, partial sequence; chloroplast
+Length=800
+
+ Score = 1478 bits (800),  Expect = 0.0
+ Identities = 800/800 (100%), Gaps = 0/800 (0%)
+ Strand=Plus/Plus
+
+Query  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+
+Query  61   ATTCACTATTATGTCTTATCTATTCAGACTCGatatgaatagaaaacaatagaatataca  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   ATTCACTATTATGTCTTATCTATTCAGACTCGATATGAATAGAAAACAATAGAATATACA  120
+
+Query  121  atttcaaataaatattgaatattaatattatagaacataacaattaatataGCGATATAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  ATTTCAAATAAATATTGAATATTAATATTATAGAACATAACAATTAATATAGCGATATAG  180
+
+Query  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+
+Query  241  GATAtttttttAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCtag  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GATATTTTTTTAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCTAG  300
+
+Query  301  ttagttagttagctagttagttagatagttaaattatttaaatttgtcatttttgaattt  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TTAGTTAGTTAGCTAGTTAGTTAGATAGTTAAATTATTTAAATTTGTCATTTTTGAATTT  360
+
+Query  361  gaattcaaatgacatttgaaattcttttattaCACTTCTATATTTTCTATATTATTTGAT  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GAATTCAAATGACATTTGAAATTCTTTTATTACACTTCTATATTTTCTATATTATTTGAT  420
+
+Query  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+
+Query  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACaaaaaaaaGACCGTTCAAGTA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACAAAAAAAAGACCGTTCAAGTA  540
+
+Query  541  TTCAAAATTGCATGAGAAGGGCGACAGGtatatatatatatataGGATATCTATTAATCT  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  TTCAAAATTGCATGAGAAGGGCGACAGGTATATATATATATATAGGATATCTATTAATCT  600
+
+Query  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+
+Query  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+
+Query  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+
+Query  781  TCATAATGCAATGAAATCCT  800
+            ||||||||||||||||||||
+Sbjct  781  TCATAATGCAATGAAATCCT  800
+
+
+>OP923893.1 Vincetoxicum flexuosum voucher M.Kidyoo 1696 trnT-trnL 
+intergenic spacer, partial sequence; chloroplast
+Length=800
+
+ Score = 1472 bits (797),  Expect = 0.0
+ Identities = 799/800 (99%), Gaps = 0/800 (0%)
+ Strand=Plus/Plus
+
+Query  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+
+Query  61   ATTCACTATTATGTCTTATCTATTCAGACTCGatatgaatagaaaacaatagaatataca  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   ATTCACTATTATGTCTTATCTATTCAGACTCGATATGAATAGAAAACAATAGAATATACA  120
+
+Query  121  atttcaaataaatattgaatattaatattatagaacataacaattaatataGCGATATAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  ATTTCAAATAAATATTGAATATTAATATTATAGAACATAACAATTAATATAGCGATATAG  180
+
+Query  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+
+Query  241  GATAtttttttAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCtag  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GATATTTTTTTAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCTAG  300
+
+Query  301  ttagttagttagctagttagttagatagttaaattatttaaatttgtcatttttgaattt  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TTAGTTAGTTAGCTAGTTAGTTAGATAGTTAAATTATTTAAATTTGTCATTTTTGAATTT  360
+
+Query  361  gaattcaaatgacatttgaaattcttttattaCACTTCTATATTTTCTATATTATTTGAT  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GAATTCAAATGACATTTGAAATTCTTTTATTACACTTCTATATTTTCTATATTATTTGAT  420
+
+Query  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+
+Query  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACaaaaaaaaGACCGTTCAAGTA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACAAAAAAAAGACCGTTCAAGTA  540
+
+Query  541  TTCAAAATTGCATGAGAAGGGCGACAGGtatatatatatatataGGATATCTATTAATCT  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  TTCAAAATTGCATGAGAAGGGCGACAGGTATATATATATATATAGGATATCTATTAATCT  600
+
+Query  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+
+Query  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+
+Query  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+            ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  AGAATAGGTCTCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+
+Query  781  TCATAATGCAATGAAATCCT  800
+            ||||||||||||||||||||
+Sbjct  781  TCATAATGCAATGAAATCCT  800
+
+
+>LN880806.1 Vincetoxicum inamoenum chloroplast DNA containing 
+partial trnT gene, trnT-trnL IGS and partial trnL gene, specimen 
+voucher MW: s.coll. s.n
+Length=801
+
+ Score = 1467 bits (794),  Expect = 0.0
+ Identities = 799/801 (99%), Gaps = 1/801 (0%)
+ Strand=Plus/Plus
+
+Query  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAGGT  60
+
+Query  61   ATTCACTATTATGTCTTATCTATTCAGACTCGatatgaatagaaaacaatagaatataca  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   ATTCACTATTATGTCTTATCTATTCAGACTCGATATGAATAGAAAACAATAGAATATACA  120
+
+Query  121  atttcaaataaatattgaatattaatattatagaacataacaattaatataGCGATATAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  ATTTCAAATAAATATTGAATATTAATATTATAGAACATAACAATTAATATAGCGATATAG  180
+
+Query  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+
+Query  241  GATAtttttttAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCtag  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GATATTTTTTTAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCTAG  300
+
+Query  301  ttagttagttagctagttagttagatagtt-aaattatttaaatttgtcatttttgaatt  359
+            |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  301  TTAGTTAGTTAGCTAGTTAGTTAGATAGTTAAAATTATTTAAATTTGTCATTTTTGAATT  360
+
+Query  360  tgaattcaaatgacatttgaaattcttttattaCACTTCTATATTTTCTATATTATTTGA  419
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  TGAATTCAAATGACATTTGAAATTCTTTTATTACACTTCTATATTTTCTATATTATTTGA  420
+
+Query  420  TTCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCA  479
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TTCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCA  480
+
+Query  480  GTCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACaaaaaaaaGACCGTTCAAGT  539
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GTCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACAAAAAAAAGACCGTTCAAGT  540
+
+Query  540  ATTCAAAATTGCATGAGAAGGGCGACAGGtatatatatatatataGGATATCTATTAATC  599
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  ATTCAAAATTGCATGAGAAGGGCGACAGGTATATATATATATATAGGATATCTATTAATC  600
+
+Query  600  TATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCT  659
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  TATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCT  660
+
+Query  660  CCTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAAT  719
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  CCTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAAT  720
+
+Query  720  AAGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCC  779
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  AAGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCC  780
+
+Query  780  ATCATAATGCAATGAAATCCT  800
+            |||||||||||||||||||||
+Sbjct  781  ATCATAATGCAATGAAATCCT  801
+
+
+>OP923887.1 Vincetoxicum sp. MK-2022a voucher A.Kidyoo 80 trnT-trnL 
+intergenic spacer, partial sequence; chloroplast
+Length=800
+
+ Score = 1467 bits (794),  Expect = 0.0
+ Identities = 798/800 (99%), Gaps = 0/800 (0%)
+ Strand=Plus/Plus
+
+Query  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAGGT  60
+
+Query  61   ATTCACTATTATGTCTTATCTATTCAGACTCGatatgaatagaaaacaatagaatataca  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   ATTCACTATTATGTCTTATCTATTCAGACTCGATATGAATAGAAAACAATAGAATATACA  120
+
+Query  121  atttcaaataaatattgaatattaatattatagaacataacaattaatataGCGATATAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  ATTTCAAATAAATATTGAATATTAATATTATAGAACATAACAATTAATATAGCGATATAG  180
+
+Query  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+
+Query  241  GATAtttttttAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCtag  300
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct  241  GATATTTTTTTAGTAAATTCTATATCTTGGTAGATTCGATAGTCAATATTTTGATTCTAG  300
+
+Query  301  ttagttagttagctagttagttagatagttaaattatttaaatttgtcatttttgaattt  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TTAGTTAGTTAGCTAGTTAGTTAGATAGTTAAATTATTTAAATTTGTCATTTTTGAATTT  360
+
+Query  361  gaattcaaatgacatttgaaattcttttattaCACTTCTATATTTTCTATATTATTTGAT  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GAATTCAAATGACATTTGAAATTCTTTTATTACACTTCTATATTTTCTATATTATTTGAT  420
+
+Query  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+
+Query  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACaaaaaaaaGACCGTTCAAGTA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACAAAAAAAAGACCGTTCAAGTA  540
+
+Query  541  TTCAAAATTGCATGAGAAGGGCGACAGGtatatatatatatataGGATATCTATTAATCT  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  TTCAAAATTGCATGAGAAGGGCGACAGGTATATATATATATATAGGATATCTATTAATCT  600
+
+Query  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+
+Query  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+
+Query  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+
+Query  781  TCATAATGCAATGAAATCCT  800
+            ||||||||||||||||||||
+Sbjct  781  TCATAATGCAATGAAATCCT  800
+
+
+>OQ326690.1 Vincetoxicum kerrii voucher BCU:A.Kidyoo 96 trnT-trnL 
+intergenic spacer, partial sequence; chloroplast
+Length=800
+
+ Score = 1467 bits (794),  Expect = 0.0
+ Identities = 798/800 (99%), Gaps = 0/800 (0%)
+ Strand=Plus/Plus
+
+Query  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAAGT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  1    CATAACATCAATTTTATGTGCATAGTAATTCAATAAAATATTGGAATCTTAATCTTAGGT  60
+
+Query  61   ATTCACTATTATGTCTTATCTATTCAGACTCGatatgaatagaaaacaatagaatataca  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   ATTCACTATTATGTCTTATCTATTCAGACTCGATATGAATAGAAAACAATAGAATATACA  120
+
+Query  121  atttcaaataaatattgaatattaatattatagaacataacaattaatataGCGATATAG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  ATTTCAAATAAATATTGAATATTAATATTATAGAACATAACAATTAATATAGCGATATAG  180
+
+Query  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTTGTATTTTTTATCACTAATCACTAATAGAATTTACAATTCGAATATTATTAAATTC  240
+
+Query  241  GATAtttttttAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCtag  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GATATTTTTTTAGTAAATTCTATATCTTGGTAGACTCGATAGTCAATATTTTGATTCTAG  300
+
+Query  301  ttagttagttagctagttagttagatagttaaattatttaaatttgtcatttttgaattt  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TTAGTTAGTTAGCTAGTTAGTTAGATAGTTAAATTATTTAAATTTGTCATTTTTGAATTT  360
+
+Query  361  gaattcaaatgacatttgaaattcttttattaCACTTCTATATTTTCTATATTATTTGAT  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GAATTCAAATGACATTTGAAATTCTTTTATTACACTTCTATATTTTCTATATTATTTGAT  420
+
+Query  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  TCCATATCATTAGGAATGATTAGTTCGAACTGATGAGACATTCCTCCACGTTCATTCCAG  480
+
+Query  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACaaaaaaaaGACCGTTCAAGTA  540
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  TCATAAAATTCATAAAGTAGTAAAGGCGGAAATTAAGACAAAAAAAAGACCGTTCAAGTA  540
+
+Query  541  TTCAAAATTGCATGAGAAGGGCGACAGGtatatatatatatataGGATATCTATTAATCT  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  TTCAAAATTGCATGAGAAGGGCGACAGGTATATATATATATATAGGATATCTATTAATCT  600
+
+Query  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  ATATTGAATTACGAATCCAGAAATGATAAAATCCAATTTGATTGGACCAAATAGGGTCTC  660
+
+Query  661  CTATATAAGATAGGAGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+            |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  CTATATAAGATAGGGGAAGACAGGTAAGAAATAAAAGAGGAAAAATGCTTCTTCGAAATA  720
+
+Query  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721  AGAATAGGTATCTAATGAATTCAAAGGTTCCGGTATAAATGAAAGAAAAAGGGAACGCCA  780
+
+Query  781  TCATAATGCAATGAAATCCT  800
+            ||||||||||||||||||||
+Sbjct  781  TCATAATGCAATGAAATCCT  800
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 6040652856
+
+
+  Database: lastest_proj3_db.fasta
+    Posted date:  Dec 13, 2024  9:34 AM
+  Number of letters in database: 8,004,328
+  Number of sequences in database:  10,000
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

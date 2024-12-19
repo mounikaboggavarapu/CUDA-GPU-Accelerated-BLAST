@@ -1,0 +1,112 @@
+BLASTN 2.12.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: lastest_proj3_db.fasta
+           10,000 sequences; 8,004,328 total letters
+
+
+
+Query= results for 801 residue sequence "DI135736.1 RECOMBINANT EXPRESSION
+VECTOR FOR PRODUCTION OF PLANTS HAVINGMULTIPLE STRESS TOLERANCES,
+AND METHOD FOR PREPARING MULTIPLESTRESS-TOLERANT PLANTS USING THE
+SAME" starting "TCTCGATCTT"
+
+Length=801
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+DI135736.1 RECOMBINANT EXPRESSION VECTOR FOR PRODUCTION OF PLANTS...  1435    0.0  
+
+
+>DI135736.1 RECOMBINANT EXPRESSION VECTOR FOR PRODUCTION OF PLANTS 
+HAVINGMULTIPLE STRESS TOLERANCES, AND METHOD FOR PREPARING 
+MULTIPLESTRESS-TOLERANT PLANTS USING THE SAME
+Length=801
+
+ Score = 1435 bits (777),  Expect = 0.0
+ Identities = 793/801 (99%), Gaps = 0/801 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCTCGATCTTCTCTGTCTAAGCTCTAAAGGGGTGCTCTGAGATCACGTAAAACAGTGGTG  60
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  1    TCTCGATCTTCTCTGTCTAAGCTCTAAAGGGGTGCTCTGAGATCACGTAAAACAATGGTG  60
+
+Query  61   AAGGCTGAAGCTGTTCTTACCAGTAGGGAGGGGGTTAGCGGAACAATCTTCTTTACCCAA  120
+            |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||
+Sbjct  61   AAGGCTGAAGCTGTTCTTACCAGTAGTGAGGGGGTTAGCGGAACAATCTTCTTTACCCAA  120
+
+Query  121  GAAGGAGATGGTCCTACCACTGTAACTGGAAACATTTCCTGCCTTAAGCCAGGGCTTCAT  180
+            ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct  121  GAAGGAGATGGTCCTACCACTGTAACTGGAAACATTTCCGGCCTTAAGCCAGGGCTTCAT  180
+
+Query  181  GGGTTCCACGTCCATGCCCTTGGAGACACAACAAACGGTTGCATGTCAACTGGGCCACAC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGTTCCACGTCCATGCCCTTGGAGACACAACAAACGGTTGCATGTCAACTGGGCCACAC  240
+
+Query  241  TTTAACCCTTCTGGCAAAGATCATGGTGCCCCTGAGGATGAGATTCGTCATGCTGGTGAT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TTTAACCCTTCTGGCAAAGATCATGGTGCCCCTGAGGATGAGATTCGTCATGCTGGTGAT  300
+
+Query  301  CTGGGAAATGTCACTGCTGGTGATGAGGGCACTGCTAGTTTCACAATTATTGACAAGCAT  360
+            |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||
+Sbjct  301  CTGGGAAATGTCACTGCTGGTGATGATGGCACTGCTAGTTTCACAATTATTGACAAGCAT  360
+
+Query  361  ATTCCTCTTTCTGGTCAAAATTCAATCATAGGAAGGGCAGTTGTTGTTCATGCAGATCCT  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATTCCTCTTTCTGGTCAAAATTCAATCATAGGAAGGGCAGTTGTTGTTCATGCAGATCCT  420
+
+Query  421  GATGATCTTGGCAGGGGAGGACATAAACTCAGTAAAACCACCGGAAATGCTGGTGGCAGA  480
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  421  GATGATCTTGGCAGGGGAGGACATGAACTCAGTAAAACCACCGGAAATGCTGGTGGCAGA  480
+
+Query  481  GTAGCATGCGGTATTATTGGTTTGCGAGGATAGTGTGCTTCTCCAGAGATCAATAACAAG  540
+            ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct  481  GTAGCATGCGGTATTATTGGTTTGCGAGGATAGAGTGCTTCTCCAGAGATCAATAACAAG  540
+
+Query  541  ACAAAGACAGCTGAAACATGCACAGCCGGACAACCTTTAGAAGAACGTTAGGAGACCATT  600
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  ACAAAGACAGCTGAAACATGCACAGCCGGACAACCTTTAGAAGAACGTTAGGAGACCATT  600
+
+Query  601  AACTCATTTGAATAAAAGAAAGAATAATACTGTAGTTTTGGCTGGTTTGGTCTTGTGATC  660
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601  AACTCATTTGAATAAAAGAAAGAATAATACTGTAGTTTTGGCTGGTTTGGTCTTGTGATC  660
+
+Query  661  TCAAGATGGTGTATGCTTTGTATGGTTTCGTGAAGTTTATTGAACTTTGAACTTTTTCGA  720
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661  TCAAGATGGTGTATGCTTTGTATGGTTTCGTGAAGTTTATTGAACTTTGAACTTTTTCGA  720
+
+Query  721  ATGGTAGGGCTTGCTCTTTGTCTGGTCCAAATTCAGGCCGTGGATGTCTTATACTGCTTT  780
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct  721  ATGGTAGGGCTTGCTCTTTGTCTGGTCCAAATTCAGGCCGTGGATGTTTTATACTGCTTT  780
+
+Query  781  aaaaaaaaaaaaaagaaaaaa  801
+            |||||||||||||| ||||||
+Sbjct  781  AAAAAAAAAAAAAAAAAAAAA  801
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 6048427184
+
+
+  Database: lastest_proj3_db.fasta
+    Posted date:  Dec 13, 2024  9:34 AM
+  Number of letters in database: 8,004,328
+  Number of sequences in database:  10,000
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
